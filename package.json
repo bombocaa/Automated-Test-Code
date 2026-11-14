@@ -1,0 +1,14 @@
+{
+  "name": "coffee-cart-automation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}
