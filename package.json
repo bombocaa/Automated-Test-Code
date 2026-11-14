@@ -1,0 +1,11 @@
+{
+  "name": "technical-exam-automation",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["part-2", "part-3"],
+  "scripts": {
+    "test:part2": "npm run test:e2e --workspace=coffee-cart-automation",
+    "test:part3": "npm test --workspace=restful-booker-api-tests",
+    "test": "npm run test:part2 && npm run test:part3"
+  }
+}
